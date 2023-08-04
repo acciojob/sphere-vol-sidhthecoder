@@ -2,9 +2,9 @@ function volume_sphere(e) {
 	e.preventDefault();
     let r=document.getElementById("radius").value;
 
-	let vol=(4/3)*3.14*r*r*r;
+	let vol=1.33333333333*3.14159265359*r*r*r;
 
-	document.getElementById("volume").value=vol;
+	document.getElementById("volume").value=vol.toFixed(4);
   
 } 
 
